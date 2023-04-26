@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +13,7 @@ namespace tka.Handlers
     {
         public void Start()
         {
-            Log.Debug("TAK NIE");
+            Log.Debug("Plugin SanctionsLogger uruchomiony poprawnie");
         }
     }
 }
