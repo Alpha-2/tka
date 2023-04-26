@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,7 @@ namespace tka
     {
         [Description("Enable plugin")]
         public bool IsEnabled { get; set; } = true;
+        [Description("Default: false")]
         public bool Debug { get; set; }
     }
 }
